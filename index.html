@@ -56,7 +56,7 @@ import {getAuth,onAuthStateChanged,signInWithEmailAndPassword,createUserWithEmai
 import {getFirestore,collection,doc,getDoc,setDoc,updateDoc,deleteDoc,onSnapshot,query,where,orderBy,limit,writeBatch,increment} from "https://www.gstatic.com/firebasejs/11.10.0/firebase-firestore.js";
 
 /* الصق إعدادات مشروعك الجديد هنا / Paste your NEW project's config here */
-const CFG={apiKey:"PASTE",authDomain:"PASTE",projectId:"PASTE",appId:"PASTE"};
+const CFG={apiKey:"AIzaSyCGVfYyeo_tUWPK_oI-Ogqug6TpPeIGVqo",authDomain:"company-system-22721.firebaseapp.com",projectId:"company-system-22721",appId:"1:934133985861:web:20d381fa8c111a2109692c"};
 
 const app0=initializeApp(CFG),auth=getAuth(app0),db=getFirestore(app0);
 const PERMS=["users.view","users.create","users.edit","users.disable","users.changeRole","reports.send","reports.viewAll","reports.viewDept","reports.edit","reports.delete","reports.download","reports.respond","docs.word","docs.upload","docs.image","admin.panel","admin.depts","admin.roles","admin.logs","inventory.view","inventory.create","inventory.stock","inventory.edit","inventory.delete","inventory.prices"];
